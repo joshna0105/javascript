@@ -9,4 +9,10 @@ Types of datatypes:-
 Example:-String  , number , Boolean , null ,undefined
 2.Non-primitive datatype :- It can store multiple values.
 			-> They are user defined.
-Example:- functions, arrays , objects
+			->mutable
+Example:- functions, arrays , objects ,class
+
+//find the max num among the given
+let a=20;
+let b=30;
+let c=40;
