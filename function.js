@@ -107,8 +107,54 @@
 // console.log(x);
 
 //! return - Implicit return
-let x = (a, b) => { return a + b; }
-console.log(x(3, 3));
+// let x = (a, b) => { return a + b; }
+// console.log(x(3, 3));
 
-let y = (a, b) => a + b;
-console.log(y(3, 3));
+// let y = (a, b) => a + b;
+// console.log(y(3, 3));
+
+// function hof(a){
+//     return a;
+// };
+
+// let x = hof(function()({return"this is called function"}));
+// console.log(x);
+
+
+// let b = function(){
+//     console.log("anoymnous")
+// };console.log(b);
+
+// function add(callback){
+//     return callback(5,3);
+// };
+// let x = add (fuction(a,b){return a+b});
+// console.log(x);
+
+let users = ["navya","vishnu","dhanya","abc","dcs"];
+
+// let x = users.map((user)=>{
+//     return user;
+// });
+// console.log(x);
+// let x = users.forEach((user)=>{
+//     return (user);
+// });
+// console.log(x);
+var a = 10;
+let b = 30;
+function x(){
+    var user = "dhanayaaa";
+    let company = "amazon";
+    const sal = 1234567;
+    console.log(user);
+    console.log(company);
+    console.log(sal);
+    console.log(a,b);
+}
+x();
+
+
+
+
+
