@@ -131,7 +131,7 @@
 // let x = add (fuction(a,b){return a+b});
 // console.log(x);
 
-let users = ["navya","vishnu","dhanya","abc","dcs"];
+// let users = ["navya","vishnu","dhanya","abc","dcs"];
 
 // let x = users.map((user)=>{
 //     return user;
@@ -141,16 +141,47 @@ let users = ["navya","vishnu","dhanya","abc","dcs"];
 //     return (user);
 // });
 // console.log(x);
-var a = 10;
-let b = 30;
+// var a = 10;
+// let b = 30;
+// function x(){
+//     var user = "dhanayaaa";
+//     let company = "amazon";
+//     const sal = 1234567;
+//     console.log(user);
+//     console.log(company);
+//     console.log(sal);
+//     console.log(a,b);
+// }
+// x();
+
+// function x(){
+//     var a =10;
+//     let b = 20;
+//     console.log(a,b);
+//     function y(){
+//         let p ="js";
+//         let q = "react";
+//         console.log(p,q);
+//     }
+// }
+
 function x(){
-    var user = "dhanayaaa";
-    let company = "amazon";
-    const sal = 1234567;
-    console.log(user);
-    console.log(company);
-    console.log(sal);
+    let a = 10;
+    const b = 20;
     console.log(a,b);
+       function y(){
+        let p ="js";
+        var q = "react";
+        console.log(p,q);
+        function z(){
+            const username = "dhanya";
+            console.log(username);
+            console.log(a);
+            console.log(q);
+        }
+        z();
+    }
+    y();
 }
 x();
 
