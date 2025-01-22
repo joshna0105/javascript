@@ -15,18 +15,50 @@
 // let p1 = new Promise((resolve , reject)=>{});
 // console.log(p1);
 
-let p2 = new Promise((resolve,reject)=>{
-    resolve("success");
-});
-console.log(p2);
-p2.then((response)=>
-{
-    console.log(response);
-}).catch((error)=>{
-    console.log(error);
-}).finally(()=>console.log("finally printing for both"))
+// let p2 = new Promise((resolve,reject)=>{
+//     resolve("success");
+// });
+// console.log(p2);
+// p2.then((response)=>
+// {
+//     console.log(response);
+// }).catch((error)=>{
+//     console.log(error);
+// }).finally(()=>console.log("finally printing for both"))
 
-let p3 = new Promise((resolve,reject)=>{
-    reject("failures");
-});
-console.log(p3);
+// let p3 = new Promise((resolve,reject)=>{
+//     reject("failures");
+// });
+// console.log(p3);/
+
+//api fetching
+//console.log(window);
+function fetchUsers()
+{
+    let x = fetch("https://jsonplaceholder.typicode.com/Users");
+    // console.log(res);
+    x
+    .then((response)=>{
+        // console.log(val);
+        // console.log(val.json());
+        return response.json().then(data=>{
+            console.log(data);
+            let store = document.getElementById("store");
+            //console.log(store);
+            data.map(user=>{
+                //console.log(user);
+                store.innerHTML +=`
+                <tr>
+                <td>${user.id}</td>
+                <td>${user.name}</td>
+                <td>${user.mail}</td>
+                <td>${user.company.name}</td>
+                </tr>
+                `
+            })
+        })
+
+    })
+    .catch(err=>console.log(err))
+}
+fetchUsers();
