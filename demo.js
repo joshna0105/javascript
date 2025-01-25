@@ -94,3 +94,64 @@
 // inp.addEventListener("keyup",()=>{
 //     console.log("key up");
 // })
+
+// let red = document.getElementById("red");
+// btn.addEventListener("mouseover" , ()=>{
+//     // alert("mouse over done")
+//     document.body.style.background="teal"
+// })
+
+// red.addEventListener("mouseleave" , ()=>{
+//     // alert("mouse leave done")
+//     document.body.style.background="tomato"
+// })
+
+
+// let Red = document.getElementById("Red"); 
+// Red.addEventListener("mouseover", () => {
+//     document.body.style.background = "Red"; 
+// });
+// Red.addEventListener("mouseleave", () => {
+//     document.body.style.background = "white"; 
+// });
+
+// let Yellow = document.getElementById("Yellow"); 
+// Yellow.addEventListener("mouseover", () => {
+//     document.body.style.background = "Yellow"; 
+// });
+// Yellow.addEventListener("mouseleave", () => {
+//     document.body.style.background = "white"; 
+// });
+
+// let Blue = document.getElementById("Blue"); 
+// Blue.addEventListener("mouseover", () => {
+//     document.body.style.background = "Blue"; 
+// });
+// Blue.addEventListener("mouseleave", () => {
+//     document.body.style.background = "white"; 
+// });
+
+// let Green = document.getElementById("Green"); 
+// Green.addEventListener("mouseover", () => {
+//     document.body.style.background = "Green"; 
+// });
+// Green.addEventListener("mouseleave", () => {
+//     document.body.style.background = "white"; 
+// });
+
+// let Black = document.getElementById("Black"); 
+// Black.addEventListener("mouseover", () => {
+//     document.body.style.background = "Black"; 
+// });
+// Black.addEventListener("mouseleave", () => {
+//     document.body.style.background = "white"; 
+// });
+
+
+// let x = document.createElement("h1");
+// x.innerHTML = "Dynamic creation of html element from JS";
+// x.setAttribute("id" , "demo");
+// console.log(x);
+// document.body.appendChild(x);
+// let image = document
+
