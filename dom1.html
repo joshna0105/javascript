@@ -18,12 +18,35 @@
         </div>
      </div> -->
 
-
+<!-- 
      <form>
         <input type="text" placeholder="name" id="uName"><br>
         <input type="email" placeholder="email" id="uEmail"><br>
         <input type="password" placeholder="password" id="uPsw"><br>
         <input type="submit" value="Signup">
+     </form> -->
+
+     <form>
+        <div class="formgroup">
+            <label for="uName">Username :</label>
+            <input type="text" id="uName" placeholder="enter a username">
+        </div>
+        <div class="formgroup">
+            <label for="uPass">Password :</label>
+            <input type="password" id="uPass" placeholder="enter a password">
+            <input type ="checkbox" id="check">
+            <span id="show">show password</span> 
+        </div>
+        <div class="formgroup">
+            <label for="">Gender :</label>
+            <input type="radio" name="gender" value="male"><span>Male</span>
+            <input type="radio" name="gender" value="female"><span>Female</span>
+            <input type="radio" name="gender" value="others"><span>Others</span>
+        </div>
+
+        <div class="formgroup">
+            <input type="submit">
+        </div>
      </form>
 
 
